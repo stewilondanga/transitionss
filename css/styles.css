@@ -19,11 +19,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-img.fx {
+/*img.fx {
   display:block;
   position:relative;
   width:300px;
