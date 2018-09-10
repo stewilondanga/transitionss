@@ -24,9 +24,9 @@ for (const img of document.querySelectorAll("img.fx")) {
   img.parentNode.replaceChild(wrapper, img);
 
   // add original <img> to wrapper
-  /*    wrapper.appendChild(img);
+  wrapper.appendChild(img);
 
-      // add overlay layer to wrapper
-      const overlay = `<img src=${img.src} class="fxoverlay">`;
+  // add overlay layer to wrapper
+  /*    const overlay = `<img src=${img.src} class="fxoverlay">`;
       wrapper.insertAdjacentHTML("beforeend", overlay);
     }
